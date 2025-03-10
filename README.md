@@ -102,6 +102,16 @@ Dentro de mongosh, ejecuta:
 ```bash
 show dbs
 ```
+![image](https://github.com/user-attachments/assets/9940d628-fc97-4429-9562-5fc457200fe5)
+
+**Dado que MongoDB no muestra bases de datos vacías hay que asegurarse de que la aplicación realmente está insertando datos.**
+3️⃣ Insertar un Documento de Prueba
+Si la base de datos aún no tiene datos, agregarlos manualmente:
+```bash
+use educacionit
+db.usuarios.insertOne({ name: "Gabriel Ibarra", email: "gabar@example.com" })
+```
+
 
 
 
