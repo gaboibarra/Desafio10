@@ -27,8 +27,7 @@ Antes de instalar Docker, asegúrate de que la virtualización esté habilitada 
 👉 Docker Desktop para Windows
 
 3️⃣ Instalar Docker Desktop
-Abre el instalador (Docker Desktop Installer.exe).
-Acepta los permisos de administrador si se solicitan.
-(Opcional pero recomendado): Marca la opción "Use WSL 2 instead of Hyper-V".
-Haz clic en "Install" y espera a que finalice la instalación.
-Reinicia tu PC si se solicita.
+- Abre el instalador (Docker Desktop Installer.exe).
+- Acepta los permisos de administrador si se solicitan. **(Opcional pero recomendado):** Marca la opción "Use WSL 2 instead of Hyper-V".
+- Haz clic en "Install" y espera a que finalice la instalación.
+- Reinicia tu PC si se solicita.
