@@ -30,3 +30,11 @@ Antes de instalar Docker, asegúrate de que la virtualización esté habilitada 
 - Acepta los permisos de administrador si se solicitan. **(Opcional pero recomendado):** Marca la opción "Use WSL 2 instead of Hyper-V".
 - Haz clic en "Install" y espera a que finalice la instalación.
 - Reinicia tu PC si se solicita.
+
+4️⃣ Verificar la Instalación
+Abre CMD o PowerShell y ejecuta:
+```bash
+docker --version
+```
+
+
