@@ -111,7 +111,13 @@ Si la base de datos aún no tiene datos, agregarlos manualmente:
 use educacionit
 db.usuarios.insertOne({ name: "Gabriel Ibarra", email: "gabar@example.com" })
 ```
+![image](https://github.com/user-attachments/assets/7f2817ed-7d21-4b7e-aedc-d2e1f2b997ff)
 
+Verificar que el documento fue insertado:
+
+```bash
+db.usuarios.find().pretty()
+```
 
 
 
