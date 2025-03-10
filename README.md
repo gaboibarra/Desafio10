@@ -36,12 +36,16 @@ Abre CMD o PowerShell y ejecuta:
 ```bash
 docker --version
 ```
-Si ves algo como:
+Si la salida es algo como esto:
 ```bash
 Docker version 24.x.x, build xxxxxxx
 ```
+Significa que Docker está instalado correctamente. ✅
 
-
+También se puede probar ejecutando un contenedor de prueba:
+```bash
+docker run hello-world
+```
 
 
 
