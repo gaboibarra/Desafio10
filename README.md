@@ -48,7 +48,7 @@ docker run hello-world
 ```
 Al ver este mensaje de Bienvenida quiere decir que Docker está funcionando correctamente. 🎉
 
-![image](https://github.com/user-attachments/assets/4538809f-e88b-48c5-b0a3-8e2cbd4d7bc7)
+![image](https://github.com/user-attachments/assets/e1fd2283-3c68-47ac-b259-1a95bd2be889)
 
 # 🚀 Pasos para Ejecutar la Aplicación
 
