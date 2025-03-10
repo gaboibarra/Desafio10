@@ -50,8 +50,13 @@ Al ver este mensaje de Bienvenida quiere decir que Docker está funcionando corr
 
 ![image](https://github.com/user-attachments/assets/4538809f-e88b-48c5-b0a3-8e2cbd4d7bc7)
 
+# 🚀 Pasos para Ejecutar la Aplicación
 
-
+1️⃣ Clonar el Repositorio
+```bash
+git clone https://github.com/edgaregonzalez/devops-bootcamp.git
+cd devops-bootcamp/Desafios/Fase3/educacionit-app
+```
 
 
 
