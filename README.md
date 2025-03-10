@@ -23,8 +23,7 @@ Antes de instalar y ejecutar este proyecto, asegúrate de cumplir con los siguie
 Antes de instalar Docker, asegúrate de que la virtualización esté habilitada en tu equipo.
 
 2️⃣ Descargar Docker Desktop
-🔗 Descarga Docker desde la página oficial:
-👉 Docker Desktop para Windows
+👉 [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop/)
 
 3️⃣ Instalar Docker Desktop
 - Abre el instalador (Docker Desktop Installer.exe).
