@@ -4,7 +4,7 @@
 
 Este proyecto consiste en la creación de un entorno Dockerizado para una aplicación NestJS que utiliza MongoDB como base de datos. Se proporciona un Dockerfile y un docker-compose.yaml para facilitar la instalación y ejecución en cualquier entorno local.
 
-**⚙️ Requisitos Previos**
+## **⚙️ Requisitos Previos**
 
 Antes de instalar y ejecutar este proyecto, asegúrate de cumplir con los siguientes requisitos:
 
