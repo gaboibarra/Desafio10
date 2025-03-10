@@ -118,6 +118,7 @@ Verificar que el documento fue insertado:
 ```bash
 db.usuarios.find().pretty()
 ```
+![image](https://github.com/user-attachments/assets/bb2c869f-fb20-40f0-9e47-1ee910635bfc)
 
 
 
