@@ -143,4 +143,13 @@ Y los logs de MongoDB con:
 ```sh
 docker logs mongo_db
 ```
+Luego, intentar reiniciar los servicios:
+```sh
+docker-compose down
+docker-compose up --build -d
+```
+## 🏆 Conclusión
+Este proyecto permite ejecutar una aplicación NestJS con MongoDB de manera rápida y eficiente usando Docker. Gracias a docker-compose, todos los desarrolladores pueden replicar fácilmente el entorno sin problemas de configuración. 🚀
 
+## 📄 Créditos
+Desarrollado como parte del Desafío 10 del bootcamp de DevOps. 🎓
