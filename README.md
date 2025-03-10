@@ -36,5 +36,17 @@ Abre CMD o PowerShell y ejecuta:
 ```bash
 docker --version
 ```
+Si ves algo como:
+```bash
+Docker version 24.x.x, build xxxxxxx
+```
+
+
+
+
+
+
+
+
 
 
