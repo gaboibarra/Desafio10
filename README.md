@@ -8,7 +8,7 @@ Este proyecto consiste en la creación de un entorno Dockerizado para una aplica
 
 Antes de instalar y ejecutar este proyecto, asegúrate de cumplir con los siguientes requisitos:
 
-📌 Requisitos del Sistema
+## 📌 Requisitos del Sistema
 
 ✅ Sistema Operativo: Windows 10 (versión 1903 o superior) o Windows 11
 ✅ Virtualización habilitada: Hyper-V y WSL 2 (Subsistema de Windows para Linux)
