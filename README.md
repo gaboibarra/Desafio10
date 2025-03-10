@@ -153,3 +153,27 @@ Este proyecto permite ejecutar una aplicación NestJS con MongoDB de manera ráp
 
 ## 📄 Créditos
 Desarrollado como parte del Desafío 10 del bootcamp de DevOps. 🎓
+
+## 🛠 **Tecnologías Utilizadas**
+
+Este proyecto utiliza las siguientes tecnologías:
+
+### 📦 **Backend**
+- **[NestJS](https://nestjs.com/)** - Framework progresivo de Node.js para construir aplicaciones eficientes y escalables.
+- **[TypeScript](https://www.typescriptlang.org/)** - Lenguaje tipado que mejora la robustez del código en JavaScript.
+
+### 🗄️ **Base de Datos**
+- **[MongoDB](https://www.mongodb.com/)** - Base de datos NoSQL orientada a documentos.
+- **[Mongoose](https://mongoosejs.com/)** - ODM (Object Data Modeling) para manejar MongoDB en NestJS.
+
+### 🐳 **Contenedores y Orquestación**
+- **[Docker](https://www.docker.com/)** - Plataforma para contenedores que permite la portabilidad del proyecto.
+- **[Docker Compose](https://docs.docker.com/compose/)** - Orquestador para levantar múltiples servicios en un solo comando.
+
+### 🔧 **Herramientas de Desarrollo**
+- **[Node.js](https://nodejs.org/)** - Entorno de ejecución de JavaScript en el servidor.
+- **[NPM](https://www.npmjs.com/)** - Administrador de paquetes para JavaScript.
+- **[Git](https://git-scm.com/)** - Sistema de control de versiones.
+- **[Visual Studio Code](https://code.visualstudio.com/)** - Editor de código recomendado para trabajar con este proyecto.
+
+---
