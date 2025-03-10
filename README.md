@@ -92,4 +92,18 @@ Ejecutar el siguiente comando:
 ```bash
 docker exec -it mongo mongosh -u root -p rootpassword --authenticationDatabase admin
 ```
+Si la conexión es exitosa, se vera un mensaje como este: 
+
+![image](https://github.com/user-attachments/assets/f51b9955-e52a-4829-a798-b7317791e2e0)
+
+2️⃣ Verificar que MongoDB Está Corriendo
+Dentro de mongosh, ejecuta:
+
+```bash
+show dbs
+```
+
+
+
+
 
