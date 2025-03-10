@@ -46,8 +46,9 @@ También se puede probar ejecutando un contenedor de prueba:
 ```bash
 docker run hello-world
 ```
+Al ver este mensaje de Bienvenida quiere decir que Docker está funcionando correctamente. 🎉
 
-
+![image](https://github.com/user-attachments/assets/4538809f-e88b-48c5-b0a3-8e2cbd4d7bc7)
 
 
 
