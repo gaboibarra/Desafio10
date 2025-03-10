@@ -122,23 +122,25 @@ db.usuarios.find().pretty()
 
 ## 🛠️ **Solución de Problemas**
 
-Si experimentas problemas al ejecutar la aplicación, revisa la siguiente tabla con soluciones comunes:
+Si se experimenta problemas al ejecutar la aplicación, revisar la siguiente tabla con soluciones comunes:
 
 | 🚨 Problema | 🔍 Posible Causa | 🛠️ Solución |
 |------------|-----------------|-------------|
-| `docker ps` no muestra contenedores | Docker no está corriendo | Abre **Docker Desktop** y verifica que esté activo |
-| No se puede acceder a `http://localhost:3000` | El contenedor `nestjs_app` no está corriendo | Ejecuta `docker-compose up --build -d` nuevamente |
-| `docker logs nestjs_app` muestra errores de módulos faltantes | No se instalaron las dependencias correctamente | Ejecuta `docker exec -it nestjs_app sh` y luego `npm install` dentro del contenedor |
-| **MongoDB no está disponible** (`Connection refused`) | MongoDB no inició correctamente | Verifica los logs con `docker logs mongo_db` y asegúrate de que el contenedor esté corriendo con `docker ps` |
-| **NestJS no puede conectarse a MongoDB** (`ECONNREFUSED`) | La URI de conexión es incorrecta o MongoDB no está listo | Asegúrate de que `MONGO_URI=mongodb://mongo:27017/educacionit` está correctamente configurada en `docker-compose.yaml` |
-| **Error `Cannot find module '@nestjs/core'`** | NestJS no tiene las dependencias instaladas | Accede al contenedor y ejecuta `npm install` y luego `npm run build` |
-| **El contenedor de NestJS se queda en `Restarting`** | Error en la ejecución del servidor | Ejecuta `docker logs nestjs_app` para obtener más información |
+| `docker ps` no muestra contenedores | Docker no está corriendo | Abrir **Docker Desktop** y verificar que esté activo |
+| No se puede acceder a `http://localhost:3000` | El contenedor `nestjs_app` no está corriendo | Ejecutar `docker-compose up --build -d` nuevamente |
+| `docker logs nestjs_app` muestra errores de módulos faltantes | No se instalaron las dependencias correctamente | Ejecutar `docker exec -it nestjs_app sh` y luego `npm install` dentro del contenedor |
+| **MongoDB no está disponible** (`Connection refused`) | MongoDB no inició correctamente | Verificar los logs con `docker logs mongo_db` y asegurarse de que el contenedor esté corriendo con `docker ps` |
+| **NestJS no puede conectarse a MongoDB** (`ECONNREFUSED`) | La URI de conexión es incorrecta o MongoDB no está listo | Asegurarse de que `MONGO_URI=mongodb://mongo:27017/educacionit` está correctamente configurada en `docker-compose.yaml` |
+| **Error `Cannot find module '@nestjs/core'`** | NestJS no tiene las dependencias instaladas | Acceder al contenedor y ejecutar `npm install` y luego `npm run build` |
+| **El contenedor de NestJS se queda en `Restarting`** | Error en la ejecución del servidor | Ejecutar `docker logs nestjs_app` para obtener más información |
 
-Si el problema persiste, revisa los logs de la aplicación con:
+Si el problema persiste, revisar los logs de la aplicación con:
 
 ```sh
 docker logs nestjs_app
-
-
-
+```
+Y los logs de MongoDB con:
+```sh
+docker logs mongo_db
+```
 
