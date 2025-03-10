@@ -57,6 +57,9 @@ Al ver este mensaje de Bienvenida quiere decir que Docker está funcionando corr
 git clone https://github.com/edgaregonzalez/devops-bootcamp.git
 cd devops-bootcamp/Desafios/Fase3/educacionit-app
 ```
+2️⃣ Validar los Archivos en el Proyecto
 
-
-
+```bash
+dir  # (Windows)
+```
+![image](https://github.com/user-attachments/assets/ec3a8af7-ccce-47c6-ae1c-32d5ee0a0074)
