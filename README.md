@@ -76,6 +76,11 @@ docker ps
 ```
 ![image](https://github.com/user-attachments/assets/37990c04-9fa6-4a2f-bf8d-c38bd6cde0ab)
 
+5️⃣ Acceder a la Aplicación
 
+Abrir el navegador y accede a: 👉 http://localhost:3000
 
+Si todo funciona bien, deberías ver la API en funcionamiento. 🚀
+
+![image](https://github.com/user-attachments/assets/a3550e4d-3138-40af-965d-aad1ba6186a5)
 
