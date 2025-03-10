@@ -65,12 +65,16 @@ dir  # (Windows)
 ![image](https://github.com/user-attachments/assets/ec3a8af7-ccce-47c6-ae1c-32d5ee0a0074)
 
 3️⃣ Construir y Levantar los Contenedores
-
 ```bash
 docker-compose up --build -d
 ```
 ![image](https://github.com/user-attachments/assets/78de46ad-358c-4963-957c-7b8b7c8d2a40)
 
+4️⃣ Verificar que los Contenedores Están Corriendo
+```bash
+docker ps
+```
+![image](https://github.com/user-attachments/assets/37990c04-9fa6-4a2f-bf8d-c38bd6cde0ab)
 
 
 
