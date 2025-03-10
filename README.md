@@ -85,3 +85,11 @@ Si todo funciona bien, deberías ver la API en funcionamiento. 🚀
 ![image](https://github.com/user-attachments/assets/a3550e4d-3138-40af-965d-aad1ba6186a5)
 
 # 🛠️ Probar MongoDB (Opcional, pero Recomendado)
+
+1️⃣ Conectarse a MongoDB dentro del Contenedor
+Ejecutar el siguiente comando:
+
+```bash
+docker exec -it mongo mongosh -u root -p rootpassword --authenticationDatabase admin
+```
+
